@@ -1,0 +1,16 @@
+{
+  "description": "Injects compact project handoff, open progress items, git summary and universal rules at session start when a project opts into ai-kit.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/session-start.mjs\" --harness claude",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "ai-kit",
+  "check": "node scripts/check.mjs",
+  "handoff": "docs/HANDOFF.md",
+  "progress": "docs/PROGRESS.md",
+  "archiveDir": "docs/archive",
+  "quirksDoc": null,
+  "noFullRead": [
+    "docs/HANDOFF.md",
+    "docs/PROGRESS.md"
+  ],
+  "maxProgressLine": 190,
+  "maxHandoffKb": 6
+}

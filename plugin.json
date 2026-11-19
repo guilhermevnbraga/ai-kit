@@ -1,0 +1,12 @@
+{
+  "name": "ai-kit",
+  "version": "0.1.0",
+  "description": "Core AI workflow kit (Antigravity + Claude Code): token-efficient SessionStart context, /handoff, /feature, /kit-init, /kit-promote and universal engineering rules.",
+  "author": {
+    "name": "Guilherme Braga"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermevnbraga/ai-kit"
+  }
+}
